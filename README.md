@@ -13,7 +13,7 @@ These tools work together to provide comprehensive insights into cellular hetero
 
 ## Features
 
-### 🧬 Seurat Analysis (`Seurat_PBMC3k/Seurat_analysis.R`)
+### Seurat Analysis (`Seurat_PBMC3k/Seurat_analysis.R`)
 Used for the fundamental processing of scRNA-seq data.
 * ✅ Quality control (QC) and filtering
 * ✅ Normalization and feature selection
@@ -24,7 +24,7 @@ Used for the fundamental processing of scRNA-seq data.
 
 
 
-### 🌊 Trajectory Analysis (`Monocle3_C.elegans/Monocle3_trajectory.R`)
+### Trajectory Analysis (`Monocle3_C.elegans/Monocle3_trajectory.R`)
 Focuses on the transitions between cellular states.
 * ✅ Pseudotime trajectory inference
 * ✅ Branch point detection and lineage reconstruction
@@ -34,7 +34,7 @@ Focuses on the transitions between cellular states.
 
 
 
-### 🚀 Velocity Analysis (`RNA_velocity/scVelo_velocity.py`)
+### Velocity Analysis (`RNA_velocity/scVelo_velocity.py`)
 Predicts the future state of individual cells using the ratio of unspliced to spliced mRNA.
 * ✅ RNA velocity estimation (Dynamical & Stochastic models)
 * ✅ Velocity graph construction
